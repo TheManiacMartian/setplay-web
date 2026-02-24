@@ -103,7 +103,7 @@ export default function OverlayRenderer({ overlay, initialMatchState }: Props) {
         <img
           src={overlay.logo_url}
           alt="Event logo"
-          className="absolute top-6 left-6 h-14 object-contain"
+          className="absolute bottom-6 left-6 h-25 object-contain"
         />
       )}
     </div>
